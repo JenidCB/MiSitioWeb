@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bienvenido a mi Empresa</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body> 
+        <!-- menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Sobre Nosotros</a></li>
+                <li><a href="#">Reseñas</a></li>
+                <li><a href="#">Contacto</a></li>
+                <!-- Permite ver el nombre del usuario logueado -->
+                <li id="usuarioLogueado"></li>
+            </ul>
+        </nav>
+
+        <!-- banner -->
+        <header>
+            <h1>Mi Empresa</h1>
+            <p>Ofrecemos los mejores servicios para ti</p>
+        </header>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a ofrecer servicios de calidad para nuestros clientes, con años de experiencia en el sector.</p>
+            <img src="img/nuestra_empresa.jpg" alt="Nuestra Empresa">
+        </section>
+        
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicio">
+                <h3>Servicio 1</h3>
+                <p>Descripción del servicio 1.</p>
+                <p><strong>Precio:</strong> $100</p>
+            </div>
+            <div class="servicio">
+                <h3>Servicio 2</h3>
+                <p>Descripción del servicio 2.</p>
+                <p><strong>Precio:</strong> $200</p>
+            </div>
+            <!-- Agrega más servicios según sea necesario -->
+        </section>
+        
+        <section id="resenas">
+            <h2>Reseñas de nuestros clientes</h2>
+            <blockquote>
+                <p>"Excelente servicio, muy recomendado!"</p>
+                <footer>- Cliente 1</footer>
+            </blockquote>
+            <blockquote>
+                <p>"Calidad y buen precio, volvería a contratarlos."</p>
+                <footer>- Cliente 2</footer>
+            </blockquote>
+        </section>
+        
+        <footer>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </footer>   
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
